@@ -15,7 +15,7 @@ exports.bindaddress = '0.0.0.0';
 exports.special = ['princesky'];
 
 /* serverIp used for custom avatars */
-exports.serverIp = "";
+exports.serverIp = "solgaleolunalayt.psim.us";
 
 /* X amount of players needed in tournaments to earn rewards */
 exports.sizeRequiredToEarn = 2;
@@ -30,10 +30,10 @@ exports.sizeRequiredToEarn = 2;
 exports.expTimer = 10000;
 
 /* Used to rename plugins */
-exports.serverName = "";
+exports.serverName = "solgaleolunalayt";
 
 /* Used to enable poof plugin */
-exports.poof = false;
+exports.poof = true;
 
 
 /**
