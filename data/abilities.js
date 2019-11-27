@@ -4666,7 +4666,7 @@ let BattleAbilities = {
 
 	// CAP
 	"mountaineer": {
-		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks and Stealth Rock.",
+		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks  and hazards upon entering the battlefield, including Stealth Rocks.",
 		onDamage(damage, target, source, effect) {
 			if (effect && effect.id === 'stealthrock') {
 				return false;
